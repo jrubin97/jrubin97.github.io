@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Inspired by the Theme "Simply Me" Made By www.w3schools.com - No Copyright -->
+        <title>Julia Rubin</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body class="container">
+        <nav class="navbar navbar bg">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Julia Rubin</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover" href="about.html">About</a></li>
+                        <li><a class="hover" href="research.html">Research</a></li>
+                        <a class="btn btn-danger navbar-btn" href="https://google.com" target="_blank">Resume</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg text-center">
+            <img src="https://media.licdn.com/dms/image/D4E03AQFrEuIHRxdk5w/profile-displayphoto-shrink_200_200/0/1693587652693?e=2147483647&v=beta&t=YFIxT2Tbi2oN_9LhCe_pYvGlbCjmG1Ozctdjmn0-0_0" class="img-responsive img-circle margin" style="display:inline" alt="Julia Rubin" width="150" height="150">
+            <h2>About 🚀</h2>
+            <div class="container-fluid text-left about">
+                <div class="row row-no-gutters">
+                    <div class="col-xs-9 col-md-7">
+                        <p>Hi, my name is Julia, and Whale Sharks are my favorite animal. They are the gentle giants of the sea and one day, I would like to see them in real life.</p>
+                        <p>I obtained by bachlors degree from <abbr title="State University of New York">SUNY</abbr> Oswego where I double majored in Sociology and Criminal Justice and graduated <abbr title="GPA: 3.95">Summa Cum Laude</abbr>. Here I worked as a Teacher's Assistant for a Sociology class where I assisted over 90 students. I was also part of the College of Liberal Arts and Sciences Advisory Board, part of the Sociology Honor Society and was inducted by Phi Kappa Phi Honor Society (Chapter 274).</p>
+                    </div>
+                    <div class="col-xs-3 col-md-5">
+                        <img class="whale" title="Watercolor Whale Shark*" src="https://i.ebayimg.com/images/g/G64AAOSw7yxfvGTY/s-l1200.webp" alt="Whale Shark Watercolor" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container-fluid bg text-center" style="margin-top: -100px;">
+            <p class="subtext">&copy; <b id="date"></b> Julia Rubin &bull; All Rights Reserved</p>
+            <sub>*Watercolor Whale Shark by <a target="_blank" href="https://www.ebay.com/itm/293851722369"> decalbabywalldecals</a> (ebay)</sub>
+        </footer>
+
+        <script>
+            const todaysDate = new Date();
+            let currentYear = todaysDate.getFullYear();
+            document.getElementById("date").innerHTML = currentYear;
+        </script>
+    </body>
+</html>
