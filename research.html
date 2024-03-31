@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Inspired by the Theme "Simply Me" Made By www.w3schools.com - No Copyright -->
+        <title>Julia Rubin</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body class="container">
+        <nav class="navbar navbar bg">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Julia Rubin</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover" href="about.html">About</a></li>
+                        <li><a class="hover" href="research.html">Research</a></li>
+                        <!-- Change to Resume on Google Drive Link -->
+                        <a class="btn btn-danger navbar-btn" href="https://google.com" target="_blank">Resume</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg text-center">
+            <img src="https://media.licdn.com/dms/image/D4E03AQFrEuIHRxdk5w/profile-displayphoto-shrink_200_200/0/1693587652693?e=2147483647&v=beta&t=YFIxT2Tbi2oN_9LhCe_pYvGlbCjmG1Ozctdjmn0-0_0" class="img-responsive img-circle margin" style="display:inline" alt="Julia Rubin" width="150" height="150">
+            <h2>Research 📚</h2>
+            <div class="container-fluid text-left about">
+                <div class="row row-no-gutters">
+                    <h3>Criminal Justice Capstone Thesis</h3>
+                    <h4><a href="" target="_blank">Mandatory Sentences for Domestic Violence Perpetrators</a></h4>
+                    <h5>Supervising Professor: Dr. Jaclyn Schildkraut</h5>
+                    <!-- Grade or Date? -->
+                    <h6>Grade Received: A</h6>
+                    <!-- Abstract should go here -->
+                    <p>In this 18 page thesis, the history and evolution of domestic violence statutes were evaluated, followed by a
+                        discussion surrounding alternative approaches to mandatory sentences. Following a thorough literature
+                        review, policy recommendations for statutes regarding mandatory sentences were investigated.</p>
+                </div>
+                <div class="row row-no-gutters">
+                    <h3>Sociology Capstone Thesis</h3>
+                    <h4><a href="" target="_blank">Sexual Crimes: A Sociological Analysis</a></h4>
+                    <h5>Supervising Professor: Dr. Tim Delaney</h5>
+                    <h6>Grade Received: A</h6>
+                    <p>In this 28 page thesis, the impact of sexual crimes on victims was explored through a sociological lens,
+                        describing the impacts on mental health, social movements surrounding sexual violence, and categories of
+                        sexual violence that are recognized within the U.S. legal system. Sociological theories and methodological
+                        approaches were then applied to these areas.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container-fluid bg text-center" style="margin-top: -100px;">
+            <p class="subtext">&copy; <b id="date"></b> Julia Rubin &bull; All Rights Reserved</p>
+        </footer>
+
+        <script>
+            const todaysDate = new Date();
+            let currentYear = todaysDate.getFullYear();
+            document.getElementById("date").innerHTML = currentYear;
+        </script>
+    </body>
+</html>

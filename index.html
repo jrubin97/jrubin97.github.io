@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Inspired by the Theme "Simply Me" Made By www.w3schools.com - No Copyright -->
+        <title>Julia Rubin</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body class="container">
+        <nav class="navbar navbar bg">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Julia Rubin</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover" href="about.html">About</a></li>
+                        <li><a class="hover" href="research.html">Research</a></li>
+                        <a class="btn btn-danger navbar-btn" href="https://google.com" target="_blank">Resume</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg text-center">
+            <img src="https://media.licdn.com/dms/image/D4E03AQFrEuIHRxdk5w/profile-displayphoto-shrink_200_200/0/1693587652693?e=2147483647&v=beta&t=YFIxT2Tbi2oN_9LhCe_pYvGlbCjmG1Ozctdjmn0-0_0" class="img-responsive img-circle margin" style="display:inline" alt="Julia Rubin" width="150" height="150">
+            <h2>👋 Hi, I'm ✨Julia✨</h2>
+            <div class="container-fluid text-left about">
+                <p>👀 I'm interested in cooking, reading mystery novels, being in nature, and learning how to be the best me I can be!</p>
+                <p>🌱 I'm currently studying to get into law school to be a lawyer 🤞</p>
+                <p>💞️ I'm looking to find new delicious recipes to try! I'm also interested in learning as much as I can before entering law school.</p>
+            </div>
+        </div>
+
+        <div class="container-fluid bg text-center contact">
+            <h3 class="margin">Contact</h3>
+            <p>Let's chat! 💬</p>
+            <a href="mailto:jrubin97@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email </a>
+            <a href="https://www.linkedin.com/in/juliarubin222"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn </a>
+            <a href="https://github.com/jrubin97"><i class="fa fa-github" aria-hidden="true"></i> GitHub </a>
+        </div>
+
+        <footer class="container-fluid bg text-center">
+            <p class="subtext">&copy; <b id="date"></b> Julia Rubin &bull; All Rights Reserved</p>
+        </footer>
+
+        <script>
+            const todaysDate = new Date();
+            let currentYear = todaysDate.getFullYear();
+            document.getElementById("date").innerHTML = currentYear;
+        </script>
+    </body>
+</html>
