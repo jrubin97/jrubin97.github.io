@@ -8,4 +8,4 @@ Welcome to my personal website! This is where you can learn more about me, my in
 4. **Resume**: Access my resume to learn about my professional experience and skills.
 
 ## Contact
-Interested in getting in touch? Feel free to reach out via [Email](mailto:jrubin97@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/juliarubin222). Let's chat and connect!
+Interested in getting in touch? Feel free to reach out via [Email](mailto:julia.rubin97@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/juliarubin222). Let's chat and connect!
